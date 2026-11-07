@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portal informativo da UBS parceira com horários, serviços, vacinação, consultas e orientações de saúde mental." />
+  <title>UBS Saúde & Cuidado</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="topo" id="inicio">
+    <div class="container nav-wrap">
+      <a class="marca" href="#inicio" aria-label="Início">
+        <span class="marca-icone">+</span>
+        <span><strong>UBS Saúde & Cuidado</strong><small>Informação para cuidar de você</small></span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <nav id="menu" class="menu">
+        <a href="#servicos">Serviços</a>
+        <a href="#vacinacao">Vacinação</a>
+        <a href="#consultas">Consultas</a>
+        <a href="#saude-mental">Saúde mental</a>
+        <a href="#faq">Dúvidas</a>
+        <a class="btn-nav" href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="selo">Unidade Básica de Saúde</span>
+          <h1>Informação simples para cuidar melhor da sua saúde.</h1>
+          <p>Encontre horários de atendimento, serviços disponíveis, documentos necessários, informações sobre
+            vacinação, consultas e orientações de saúde mental.</p>
+          <div class="hero-acoes">
+            <a class="btn primario" href="#servicos">Ver serviços</a>
+            <a class="btn secundario" href="#contato">Como chegar</a>
+          </div>
+          <div class="aviso">Em situações de urgência ou emergência, procure uma UPA, hospital ou ligue para o SAMU 192.
+          </div>
+        </div>
+        <aside class="cartao horario-card">
+          <div class="icone-grande">🩺</div>
+          <h2>Horário de atendimento</h2>
+          <p><strong>Segunda a sexta</strong><br>08h às 17h</p>
+          <a href="#contato">Ver contato e endereço →</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="atalhos container" aria-label="Acessos rápidos">
+      <a href="#vacinacao" class="atalho"><span>💉</span>
+        <div><strong>Vacinação</strong><small>Calendário e orientações</small></div>
+      </a>
+      <a href="#consultas" class="atalho"><span>📅</span>
+        <div><strong>Consultas</strong><small>Como se preparar</small></div>
+      </a>
+      <a href="#documentos" class="atalho"><span>📄</span>
+        <div><strong>Documentos</strong><small>O que levar</small></div>
+      </a>
+      <a href="#saude-mental" class="atalho destaque"><span>💚</span>
+        <div><strong>Saúde mental</strong><small>Ansiedade e depressão</small></div>
+      </a>
+    </section>
+
+    <section class="secao" id="servicos">
+      <div class="container">
+        <div class="titulo-secao"><span>Atendimento</span>
+          <h2>Serviços oferecidos</h2>
+          <p>Alguns dos atendimentos que podem estar disponíveis na Unidade Básica de Saúde.</p>
+        </div>
+        <div class="cards-grid">
+          <article class="cartao"><span class="card-icon">👩‍⚕️</span>
+            <h3>Consulta médica</h3>
+            <p>Acompanhamento clínico, avaliação de sintomas e cuidado continuado.</p>
+          </article>
+          <article class="cartao"><span class="card-icon">🩹</span>
+            <h3>Enfermagem</h3>
+            <p>Curativos, aferição de pressão, orientações e procedimentos de enfermagem.</p>
+          </article>
+          <article class="cartao"><span class="card-icon">🤰</span>
+            <h3>Saúde da mulher</h3>
+            <p>Pré-natal, prevenção, acompanhamento e orientações em saúde.</p>
+          </article>
+          <article class="cartao"><span class="card-icon">👶</span>
+            <h3>Saúde da criança</h3>
+            <p>Acompanhamento do crescimento, desenvolvimento e vacinação.</p>
+          </article>
+          <article class="cartao"><span class="card-icon">🦷</span>
+            <h3>Saúde bucal</h3>
+            <p>Orientação, prevenção e atendimento odontológico conforme disponibilidade.</p>
+          </article>
+          <article class="cartao"><span class="card-icon">🧪</span>
+            <h3>Testes e prevenção</h3>
+            <p>Testes rápidos e ações preventivas conforme os serviços da unidade.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao suave" id="documentos">
+      <div class="container duas-colunas">
+        <div>
+          <div class="titulo-secao esquerda"><span>Antes de ir</span>
+            <h2>Documentos necessários</h2>
+            <p>Levar os documentos ajuda a tornar o atendimento mais ágil.</p>
+          </div>
+          <ul class="checklist">
+            <li>Documento oficial com foto, quando disponível.</li>
+            <li>CPF.</li>
+            <li>Cartão Nacional de Saúde (Cartão SUS).</li>
+            <li>Comprovante de residência atualizado.</li>
+            <li>Carteira de vacinação, quando o atendimento for relacionado a vacinas.</li>
+            <li>Receitas, exames anteriores e lista de medicamentos em uso, se houver.</li>
+          </ul>
+        </div>
+        <div class="info-box">
+          <h3>Não tem Cartão SUS?</h3>
+          <p>Procure orientação na recepção da unidade. A equipe poderá informar quais documentos são necessários para
+            cadastro ou atualização.</p>
+          <strong>Dica:</strong>
+          <p>Se possível, leve também seus exames e receitas anteriores. Eles podem ajudar o profissional a compreender
+            melhor o seu histórico.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="vacinacao">
+      <div class="container duas-colunas alinhado-centro">
+        <div class="ilustracao bloco-vacina">💉<span>Proteção para todas as fases da vida</span></div>
+        <div>
+          <div class="titulo-secao esquerda"><span>Prevenção</span>
+            <h2>Vacinação</h2>
+            <p>A vacinação é uma das principais formas de prevenção de doenças.</p>
+          </div>
+          <p>Antes de comparecer, confirme se a vacina desejada está disponível na unidade e se existe horário
+            específico para vacinação.</p>
+          <ul class="lista-simples">
+            <li>Leve a carteira de vacinação.</li>
+            <li>Leve Cartão SUS e documento de identificação.</li>
+            <li>Crianças e adolescentes devem estar acompanhados por responsável, quando necessário.</li>
+            <li>Em caso de dúvidas sobre doses atrasadas, procure a sala de vacinação.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao suave" id="consultas">
+      <div class="container">
+        <div class="titulo-secao"><span>Orientações</span>
+          <h2>Consultas e atendimentos</h2>
+          <p>Veja como se organizar antes de procurar atendimento.</p>
+        </div>
+        <div class="passos">
+          <article><b>1</b>
+            <h3>Procure a UBS</h3>
+            <p>Informe sua necessidade na recepção ou acolhimento.</p>
+          </article>
+          <article><b>2</b>
+            <h3>Leve seus documentos</h3>
+            <p>Tenha em mãos Cartão SUS, documento e informações importantes de saúde.</p>
+          </article>
+          <article><b>3</b>
+            <h3>Siga a orientação da equipe</h3>
+            <p>A unidade informará sobre agendamento, atendimento no dia ou encaminhamento.</p>
+          </article>
+        </div>
+        <div class="nota">Os fluxos de agendamento podem variar de uma UBS para outra. Substitua este texto pelo
+          procedimento real da unidade parceira.</div>
+      </div>
+    </section>
+
+    <section class="secao mental" id="saude-mental">
+      <div class="container">
+        <div class="titulo-secao"><span>Saúde mental também é saúde</span>
+          <h2>Informação, acolhimento e cuidado</h2>
+          <p>Conhecer os sinais pode ajudar a buscar apoio mais cedo. As informações abaixo não substituem avaliação
+            profissional.</p>
+        </div>
+        <div class="mental-grid">
+          <article class="mental-card">
+            <div class="mental-head"><span>🌿</span>
+              <h3>Ansiedade</h3>
+            </div>
+            <p>A ansiedade pode fazer parte da vida, mas quando a preocupação, o medo ou a tensão se tornam intensos,
+              frequentes e começam a atrapalhar a rotina, é importante buscar orientação.</p>
+            <h4>Alguns sinais possíveis</h4>
+            <ul>
+              <li>Preocupação excessiva.</li>
+              <li>Dificuldade para relaxar ou dormir.</li>
+              <li>Palpitações, falta de ar ou sensação de aperto.</li>
+              <li>Dificuldade de concentração.</li>
+            </ul>
+            <div class="onde-buscar"><strong>Onde buscar ajuda?</strong>
+              <p>Converse com a equipe da sua UBS. Ela pode realizar o primeiro acolhimento e orientar sobre o cuidado
+                mais adequado.</p>
+            </div>
+          </article>
+          <article class="mental-card">
+            <div class="mental-head"><span>☀️</span>
+              <h3>Depressão</h3>
+            </div>
+            <p>A depressão pode envolver tristeza persistente, perda de interesse, desânimo e outras mudanças que
+              interferem no cotidiano. O diagnóstico deve ser feito por profissional de saúde.</p>
+            <h4>Alguns sinais possíveis</h4>
+            <ul>
+              <li>Tristeza persistente ou sensação de vazio.</li>
+              <li>Perda de interesse em atividades antes prazerosas.</li>
+              <li>Alterações no sono ou apetite.</li>
+              <li>Cansaço, culpa ou dificuldade de concentração.</li>
+            </ul>
+            <div class="onde-buscar"><strong>Onde buscar ajuda?</strong>
+              <p>A UBS pode ser uma porta de entrada para acolhimento e encaminhamento à rede de saúde mental quando
+                necessário.</p>
+            </div>
+          </article>
+        </div>
+        <div class="crise-box"><strong>Precisa de ajuda imediata?</strong>
+          <p>Em risco imediato ou emergência, procure um serviço de urgência ou ligue 192. Para apoio emocional, o CVV
+            atende pelo 188, 24 horas.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="faq">
+      <div class="container faq-wrap">
+        <div class="titulo-secao"><span>Perguntas frequentes</span>
+          <h2>Dúvidas comuns</h2>
+          <p>Clique em uma pergunta para visualizar a resposta.</p>
+        </div>
+        <div class="faq-lista">
+          <details>
+            <summary>Preciso agendar para ser atendido?</summary>
+            <p>Depende do tipo de atendimento e do fluxo da UBS. Alguns atendimentos são agendados e outros passam por
+              acolhimento no dia. Confirme diretamente com a unidade.</p>
+          </details>
+          <details>
+            <summary>Posso tomar vacina sem a carteira de vacinação?</summary>
+            <p>Procure a sala de vacinação e explique a situação. A equipe poderá consultar registros disponíveis e
+              orientar sobre como regularizar o esquema vacinal.</p>
+          </details>
+          <details>
+            <summary>A UBS atende saúde mental?</summary>
+            <p>A UBS pode realizar acolhimento inicial, acompanhamento conforme a equipe disponível e encaminhamento
+              para outros pontos da rede quando necessário.</p>
+          </details>
+          <details>
+            <summary>O que devo levar para uma consulta?</summary>
+            <p>Leve documento, CPF, Cartão SUS e, se tiver, exames recentes, receitas e lista dos medicamentos que
+              utiliza.</p>
+          </details>
+          <details>
+            <summary>Como sei se um serviço está disponível?</summary>
+            <p>Entre em contato com a UBS antes de ir, pois profissionais, horários e serviços podem variar ao longo da
+              semana.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao contato" id="contato">
+      <div class="container contato-grid">
+        <div>
+          <div class="titulo-secao esquerda"><span>UBS parceira</span>
+            <h2>Contato e localização</h2>
+            <p>Informações da unidade escolhida para o projeto.</p>
+          </div>
+          <div class="contato-itens">
+            <p><span>📍</span><strong>Endereço</strong><br>R. Consolação, 9 - Peixinhos, Recife - PE, 50030-230, Brazil
+            </p>
+            <p><span>📞</span><strong>Telefone</strong><br>(81)3355-6154</p>
+            <p><span>🕒</span><strong>Horário</strong><br>Segunda a sexta, 08h às 17h</p>
+          </div>
+        </div>
+        <div class="cartao" style="padding: 30px;">
+          <h3>Agende seu atendimento</h3>
+          <p style="margin-bottom: 15px; color: #64748b;">Preencha os dados abaixo e entraremos em contato.</p>
+
+          <form id="formAgendamento" style="display: flex; flex-direction: column; gap: 15px;">
+            <div>
+              <label for="nome" style="font-weight: bold; font-size: 14px;">Nome completo</label>
+              <input type="text" id="nome" name="nome" required
+                style="width: 100%; padding: 10px; border: 1px solid #dbe7e8; border-radius: 8px;">
+            </div>
+
+            <div>
+              <label for="telefone" style="font-weight: bold; font-size: 14px;">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" required
+                style="width: 100%; padding: 10px; border: 1px solid #dbe7e8; border-radius: 8px;">
+            </div>
+
+            <div>
+              <label for="servico" style="font-weight: bold; font-size: 14px;">Serviço desejado</label>
+              <select id="servico" name="servico" required
+                style="width: 100%; padding: 10px; border: 1px solid #dbe7e8; border-radius: 8px;">
+                <option value="">Selecione um serviço...</option>
+                <option value="consulta_medica">Consulta médica</option>
+                <option value="enfermagem">Enfermagem</option>
+                <option value="saude_mulher">Saúde da mulher</option>
+                <option value="saude_crianca">Saúde da criança</option>
+                <option value="saude_bucal">Saúde bucal</option>
+                <option value="testes_prevencao">Testes e prevenção</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn primario" style="margin-top: 10px;">Enviar dados</button>
+          </form>
+          <div id="mensagemRetorno" style="margin-top: 15px; font-weight: bold; display: none;"></div>
+        </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><strong>UBS Saúde & Cuidado</strong>
+        <p>Projeto acadêmico informativo sobre acesso aos serviços de saúde.</p>
+      </div>
+      <div><strong>Aviso</strong>
+        <p>Este site não realiza diagnóstico e não substitui atendimento profissional.</p>
+      </div>
+    </div>
+    <div class="rodape-final">© <span id="ano"></span> Projeto UBS — Desenvolvido para fins acadêmicos.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
